@@ -1,7 +1,6 @@
 <?php
 /* -----------------------------------------------------
 Simple PHP script for Sending Telegram Bot Message
-~ Iky | https://www.wadagizig.com
 ------------------------------------------------------ */
 function sendMessage($telegram_id, $message_text, $secret_token) {
     $url = "https://api.telegram.org/" . $secret_token . "/sendMessage?parse_mode=markdown&chat_id=" . $telegram_id;
