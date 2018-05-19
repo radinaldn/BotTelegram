@@ -22,7 +22,7 @@ $message_text = $_POST ['message_text'];
 /*--------------------------------
 Isi TOKEN dibawah ini: 
 --------------------------------*/
-$secret_token = "bot606487592:AAENXJkGMImCJe7vX1Dl-j7xT6ng6ClOgL4";
+$secret_token = "BOT_TOKEN_GOES_HERE";
 sendMessage($telegram_id, $message_text, $secret_token);
 echo "<script>alert('Pesan berhasil terkirim!'); window.location.href = './';</script>";
 ?>
